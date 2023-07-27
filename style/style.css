@@ -1,11 +1,26 @@
 body{
+    background: lightblue;
     font-family: Arial, sans-serif;
     font-size: 20px;
-    
-    
+}
+.row {
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+    padding: 10px; 
+    text-align: center;
 }
 
+.row li {
+    display: inline-block; 
+    margin: 0; 
+    padding: 0; 
+}
 
+.row li img {
+    width: 60px; 
+    height: 60px; 
+}
 
 .fotito{
     width: 20%;
@@ -13,13 +28,14 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    padding-top: 50px;
 }
 
 div p{
     text-align: center;
 }
 .btn{
+    width:150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
