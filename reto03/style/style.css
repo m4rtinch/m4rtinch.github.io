@@ -1,0 +1,33 @@
+.container{
+    background: cornflowerblue;
+    display: flex;
+
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    color: aliceblue;
+}
+.tareas{
+    text-align:left;
+}
+h2{
+    font-size: 45px;
+}
+label{
+    font-size: 35px;
+}
+body{
+    background:gray
+}
+
+
+#btn{
+    width:"20"; 
+    height:"20";
+    background: blueviolet;
+    justify-content:flex-end;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
